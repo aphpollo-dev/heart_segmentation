@@ -1,0 +1,25 @@
+# Core medical imaging libraries
+monai==1.2.0
+SimpleITK==2.2.1
+pydicom==2.4.3
+nibabel==5.1.0
+
+# Mesh processing
+trimesh==3.23.5
+pymeshlab==2022.2.post3
+
+# Scientific computing
+numpy==1.24.3
+scipy==1.11.1
+scikit-image==0.21.0
+opencv-python==4.8.0.76
+
+# Visualization
+matplotlib==3.7.2
+plotly==5.15.0
+napari[all]==0.4.18
+
+# Development tools
+jupyter==1.0.0
+ipywidgets==8.1.0
+tqdm==4.66.1

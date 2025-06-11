@@ -1,0 +1,19 @@
+# Data files
+data/
+*.dcm
+*.stl
+*.nii
+*.nii.gz
+
+# Model files
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Outputs
+outputs/
+logs/
