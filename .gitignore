@@ -1,19 +1,27 @@
 # Data files
 data/
-*.dcm
-*.stl
 *.nii
 *.nii.gz
+*.dcm
+*.npy
+*.npz
 
 # Model files
 *.pth
 *.ckpt
+*.h5
 
 # Python
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+*.egg-info/
 
 # Outputs
 outputs/
 logs/
+wandb/
+
+# IDE
+.vscode/
+.idea/
